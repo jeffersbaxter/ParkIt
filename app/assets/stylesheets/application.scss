@@ -21,7 +21,7 @@
 // Search bar
 
 .searchbar {
-  background: linear-gradient(#30448D,#4C4980);
+/*  background: linear-gradient(rgba(46,68,141, 0.8),rgba(76,73,128,0.8));*/
   margin: 0 auto;
   text-align: center;
   width: 100%; 
@@ -58,8 +58,16 @@
   border-radius: 0;
 }
 
-body {
+/*body {
   background: #EEEEEE;
+}*/
+
+body {
+  background-image: url("/night_pic.jpg");
+  background-attachment: fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .navbar {
@@ -163,3 +171,12 @@ body {
 .bio {
   text-align: center;
 }
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Belleza', sans-serif;
+}
+
